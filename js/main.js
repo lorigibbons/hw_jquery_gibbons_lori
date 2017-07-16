@@ -1,4 +1,6 @@
 $(document).ready(function () {
     var headings = $('h2');
-    $('h2').last().text('Hello, I am Lori Gibbons and I am learning jQuery.');
+    headings.last().text('Hello, I\'m  Lori Gibbons and I am learning jQuery.');
+    //This also works without the variable
+    //$('h2').last().text('Hello, I\'m  Lori Gibbons and I am learning jQuery.');
 });
